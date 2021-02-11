@@ -2821,13 +2821,13 @@
 /**
  * WiFi Support (Espressif ESP32 WiFi)
  */
-//#define WIFISUPPORT
-#if ENABLED(WIFISUPPORT)
-  #define WIFI_SSID "Wifi SSID"
-  #define WIFI_PWD  "Wifi Password"
-  //#define WEBSUPPORT        // Start a webserver with auto-discovery
-  //#define OTASUPPORT        // Support over-the-air firmware updates
-#endif
+// #define WIFISUPPORT
+// #if ENABLED(WIFISUPPORT)
+//   #define WIFI_SSID "Wi-Fi 2.4 GHz"
+//   #define WIFI_PWD  "098765432139"
+//   #define WEBSUPPORT        // Start a webserver with auto-discovery
+//   #define OTASUPPORT        // Support over-the-air firmware updates
+// #endif
 
 /**
  * Prusa Multi-Material Unit v2

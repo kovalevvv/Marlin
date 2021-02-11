@@ -152,3 +152,18 @@
 //#define VREF_XY_PIN        PA6
 //#define VREF_Z_PIN         PA7
 //#define VREF_E1_PIN        PB0
+
+/*
+Модуль MKS WIFI
+*/
+#define MKS_WIFI
+
+#ifdef MKS_WIFI
+
+ #define MKS_WIFI_BAUDRATE                  115200
+ #undef PLATFORM_M997_SUPPORT
+
+ #define MKS_WIFI_IO0                       PA8
+ #define MKS_WIFI_IO4                       PC7
+ #define MKS_WIFI_IO_RST                    PA5
+#endif

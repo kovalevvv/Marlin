@@ -155,6 +155,7 @@
 #define MSG_FREE_MEMORY                     " Free Memory: "
 #define MSG_PLANNER_BUFFER_BYTES            "  PlannerBufferBytes: "
 #define MSG_OK                              "ok"
+#define STR_OK                              "ok"
 #define MSG_WAIT                            "wait"
 #define MSG_STATS                           "Stats: "
 #define MSG_FILE_SAVED                      "Done saving file."
